@@ -41,11 +41,11 @@ main {
   text-align: center;
 }
 
-.menu h1,
-.menu h2,
-.menu h3 {
+h1,
+h2,
+h3 {
   font-family: 'Prompt', sans-serif;
-  color: #cde400;
+  color: #f1eb3b;
   padding: 1vh;
   letter-spacing: 1px;
 }
@@ -64,7 +64,7 @@ main {
 .menu {
   width: 10%;
   padding: 2vh;
-  position: fixed;
+  position:absolute;
   font-size: 0.8em;
   background-color: #23232e;
   flex-direction: column;
@@ -74,7 +74,7 @@ main {
 }
 
 .menu:not(:hover) .bmenu {
-  position: fixed;
+  position: absolute;
   display: block;
   cursor: pointer;
   padding-top: 4px;
@@ -92,7 +92,7 @@ main {
 .menu:hover .bmenu {
   transform: translateX(0);
   padding-top: 4px;
-  position: fixed;
+  position: absolute;
   display: block;
   cursor: pointer;
   transition: transform 0.3s ease-in;
