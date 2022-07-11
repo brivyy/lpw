@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&family=Ubuntu:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&family=Ubuntu:wght@500&display=swap");
 header {
   background-color: #2e2c2c;
   display: block;
@@ -14,11 +14,11 @@ nav {
 p {
   color: #c4c4c4;
 }
-span{
-  color:#cde400;
+span {
+  color: #cde400;
 }
 a {
-  font-family:  'Ubuntu', sans-serif, Bahnschrift;
+  font-family: "Ubuntu", sans-serif, Bahnschrift;
   color: #c4c4c4;
   text-decoration: none;
   transition: 0, 3s ease-out;
@@ -32,10 +32,10 @@ body {
   text-align: center;
 }
 
-.menu h1,
-.menu h2,
-.menu h3 {
-  font-family: 'Prompt', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Prompt", sans-serif;
   color: #f1eb3b;
   padding: 1vh;
   letter-spacing: 1px;
@@ -65,10 +65,10 @@ body {
 }
 
 .menu:not(:hover) .bmenu {
-  position:  absolute;
+  position: absolute;
   display: block;
   cursor: pointer;
-  padding-top: 4px;
+  padding-top: 15px;
   background-color: #2e2c2c;
   border-radius: 5%;
   transform: translateX(300%);
@@ -82,7 +82,7 @@ body {
 
 .menu:hover .bmenu {
   transform: translateX(0);
-  padding-top: 4px;
+  padding-top: 15px;
   position: absolute;
   display: block;
   cursor: pointer;
@@ -103,4 +103,10 @@ body {
   height: 3px;
   background-color: #fff;
   margin: 8px;
+}
+
+.logo {
+  margin-right: 20px;
+  margin-top: -100px;;
+  float: right;
 }
