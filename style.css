@@ -14,10 +14,12 @@ nav {
   text-align: center;
 }
 p {
+  font-family: 'Noto Sans', sans-serif;
   text-align: justify;
   color: #c4c4c4;
 }
 span{
+  font-family: 'Noto Sans', sans-serif;
   color:#cde400;
 }
 a {
