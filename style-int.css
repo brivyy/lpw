@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&family=Ubuntu:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&family=Ubuntu:wght@500&display=swap');
 
 header {
   background-color: #2e2c2c;
@@ -6,7 +6,8 @@ header {
   text-align: center;
   padding: 3.5px 0;
   margin: 0;
-  position: static;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -24,24 +25,33 @@ span {
 }
 
 a {
-  font-family: "Ubuntu", sans-serif, Bahnschrift;
-  color: #c4c4c4;
+  font-family: 'Ubuntu', sans-serif, Bahnschrift;
+  color: #d8d5d5;
   text-decoration: none;
   transition: 0, 3s ease-out;
 }
 
 body {
-  background-color: rgb(34, 33, 33);
+  background-color: rgb(26, 26, 26);
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+main {
+  background-color: rgb(34, 33, 33);
+  padding: 17vh;
+  border-radius: 12px;
+  min-width: 280px;
+  max-width: 800px;
+  margin: auto;
   text-align: center;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   color: #f1eb3b;
   padding: 1vh;
   letter-spacing: 1px;
@@ -54,6 +64,14 @@ ul {
 }
 
 ul li {
+  letter-spacing: 1.7px;
+  padding: 0.5em;
+  margin-right: 0;
+}
+
+ul li:hover {
+  background-color: rgb(143, 43, 236);
+  opacity: 20%;
   letter-spacing: 1.7px;
   padding: 0.5em;
   margin-right: 0;
@@ -129,8 +147,12 @@ ul li {
   margin-left: 100px;
 }
 
+del {
+  text-decoration-color: red;
+}
+
 @keyframes pular {
-  0%{
+  0% {
     transform: translateY(0);
     transition: transform 0.3s ease-in;
   }
@@ -146,10 +168,16 @@ ul li {
   }
 }
 
-ul li:hover {
-  background-color: rgb(143, 43, 236);
-  opacity: 20%;
-  letter-spacing: 1.7px;
-  padding: 0.5em;
-  margin-right: 0;
+#foto {
+  width: 25%;
+  height: 25%;
+  margin: 0 auto;
+  border: 6px solid #cde400;
+  border-radius: 50%;
+}
+
+.descricao {
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
